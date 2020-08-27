@@ -11,7 +11,31 @@ Dark Primary Color
 Accent Color
 FF5722
 
-------------GuidoFavara
+
+------------ JohnPaulVal
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#212121</color>
+    <color name="colorPrimaryDark">#455A64</color>
+    <color name="colorAccent">#7C4DFF</color>
+    <color name="textoTitulo">#ffff</color>
+</resources>
+-------------- 
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00BCD4</color>
+    <color name="colorPrimaryDark">#0097A7</color>
+    <color name="colorAccent">#212121</color>
+</resources>
+------------- LuisSilva
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00BCD4</color>
+    <color name="colorPrimaryDark">#0097A7</color>
+    <color name="colorAccent">#424242</color>
+    <color name="colorTexto">#FFFFFF</color>
+</resources>
+------------ GuidoFavara
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#00BCD4</color>
