@@ -5,10 +5,34 @@ Curso desarrollo Android
 1- Identifica los colores:
 
 Primary color
-
+2196F3
 Dark Primary Color
-
+1976D2
 Accent Color
+FF5722
+
+------------GuidoFavara
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00BCD4</color>
+    <color name="colorPrimaryDark">#0097A7</color>
+    <color name="colorAccent">#424242</color>
+    <color name="colorTexto">#FFFFFF</color>
+</resources>
+----------- 280f7d5ed
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#66DDE3</color>
+    <color name="colorPrimaryDark">#3C2F33</color>
+    <color name="colorAccent">#E83B35</color>
+</resources>
+----------- ferc
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+</resources>
+
 
 
 2. Intégralos a un proyecto de Android configurando el tema correspondiente. 
