@@ -11,7 +11,34 @@ MainActivity
         });
 --------------------------------------------------------- editactivity
 
+    private void saveProduct() {
+        String stringProductName = productNameEditText.getText().toString().trim();
+        String stringQuantity = quantityEditText.getText().toString().trim();
+        String stringPrice = "0"; //priceEditText.getText().toString().trim();
+        String stringSupplierName = session.ProductoString();
+        // "AAAAAAAA";
+        // supplierNameEditText.getText().toString().trim();
+        String stringSupplierPhone = "9999999"; // supplierPhoneEditText.getText().toString().trim();
 
+        byte[] imageByte = getBytes(imageBitmap);
+/*
+        if (productUri == null &&
+                TextUtils.isEmpty(stringProductName) && TextUtils.isEmpty(stringPrice)
+                && TextUtils.isEmpty(stringQuantity) && TextUtils.isEmpty(stringSupplierName)
+                && TextUtils.isEmpty(stringSupplierPhone)) {
+*/
+        if (productUri == null &&
+                TextUtils.isEmpty(stringProductName) && TextUtils.isEmpty(stringQuantity)) {
+            return;
+        }
+
+        ContentValues values = new ContentValues();
+        values.put(ProductEntry.PRODUCT_NAME, stringProductName);
+        values.put(ProductEntry.QUANTITY, stringQuantity);
+        values.put(ProductEntry.PRICE, stringPrice);
+        values.put(ProductEntry.SUPPLIER_NAME, stringSupplierName);
+        values.put(ProductEntry.SUPPLIER_PHONE, stringSupplierPhone);
+        
 --------------------------- lista 
         productsListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
